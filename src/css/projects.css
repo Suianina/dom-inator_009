@@ -10,6 +10,7 @@
 }
 
 .projects-title {
+  font-size: 16px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: rgba(250, 250, 250, 0.4);
@@ -54,10 +55,7 @@
   border: 1px solid rgba(28, 29, 32, 0.2);
   border-radius: 60px;
   padding: 13px 18px;
-
-
   color: #1c1d20;
-
   letter-spacing: -0.02em;
   max-width: fit-content;
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -66,19 +64,19 @@
 
 .projects-name {
   width: 279px;
-
   font-size: 24px;
   line-height: 1.166;
   letter-spacing: -0.03em;
   color: #1c1d20;
   margin-bottom: 32px;
+  word-break: break-word;
+  word-break: break-all;
 }
 
 .btn-projects {
   border-radius: 60px;
   width: 141px;
   height: 45px;
-
   color: #fafafa;
   background: #ed3b44;
   display: flex;
@@ -254,8 +252,6 @@
     padding-bottom: 82px;
   }
 
-
-
   .description-content {
     width: 50%;
     border-top-right-radius: 0;
@@ -271,7 +267,6 @@
     width: 312px;
     height: 55px;
     flex-wrap: nowrap;
-
   }
 
   .projects-name {
